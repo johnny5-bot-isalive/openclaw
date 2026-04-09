@@ -214,11 +214,24 @@ The goal: Be helpful without being annoying. Check in a few times a day, do usef
 When the main session receives the exact system event `[CRON-UPDATE-CHECK]`:
 
 1. Execute `openclaw update status` immediately.
-2. If an update is available, send this Discord message to Jaret: `A new OpenClaw build is ready. Should I pull the update and restart the gateway now?`
-3. If no update is available, do not send any Discord message.
-4. Log the check in internal history or memory files when appropriate, but stay silent externally unless an update is available.
+2. Until the first automated `[CRON-WORKSPACE-SYNC]` completes cleanly, do not apply any OpenClaw update. Hold at the status-check stage only.
+3. If an update is available, send this Discord message to Jaret: `A new OpenClaw build is ready. Should I pull the update and restart the gateway now?`
+4. If no update is available, do not send any Discord message.
+5. Log the check in internal history or memory files when appropriate, but stay silent externally unless an update is available.
 
 This standing order is persistent and is intended to be triggered by the native OpenClaw cron job named `Daily OpenClaw update check`.
+
+### Workspace sync
+
+When the main session receives the exact system event `[CRON-WORKSPACE-SYNC]`:
+
+1. Bundle all markdown changes in the workspace.
+2. Commit them with an AI-generated summary.
+3. Push the result to `origin`.
+4. Send a Discord notification only if the sync fails or if merge conflicts occur.
+5. If the sync succeeds cleanly, stay silent on Discord.
+
+This standing order is persistent and is intended to be triggered by the native OpenClaw cron job named `[CRON-WORKSPACE-SYNC]`, scheduled for 3:00 AM America/Los_Angeles.
 
 ## Make It Yours
 
