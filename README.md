@@ -26,15 +26,15 @@ It is not the OpenClaw source repo. It is the assistant's home directory: identi
 
 ## Important external paths
 
-### Obsidian Second Brain
+### Obsidian The Nexus
 
-- Windows: `G:\My Drive\Obsidian Vaults\Second Brain`
-- WSL/Linux: `/mnt/g/My Drive/Obsidian Vaults/Second Brain`
+- Windows: `C:\Users\Jaret\Obsidian\The Nexus`
+- WSL/Linux: `/mnt/c/Users/Jaret/Obsidian/The Nexus`
 
 ### Canonical execution board
 
-- Backlog: `/mnt/g/My Drive/Obsidian Vaults/Second Brain/40 Agent Nexus/Backlog.md`
-- Kanban: `/mnt/g/My Drive/Obsidian Vaults/Second Brain/40 Agent Nexus/Kanban.md`
+- Backlog: `/mnt/c/Users/Jaret/Obsidian/The Nexus/40 Agent Nexus/Backlog.md`
+- Kanban: `/mnt/c/Users/Jaret/Obsidian/The Nexus/40 Agent Nexus/Kanban.md`
 
 ## Operating model
 

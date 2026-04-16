@@ -1,11 +1,11 @@
 # HEARTBEAT
 
-Use the project registry plus the global backlog and Kanban in the Second Brain vault as the execution spine.
+Use the project registry plus the global backlog and Kanban in The Nexus as the execution spine.
 
 ## Canonical execution surfaces
-- Registry: `/mnt/g/My Drive/Obsidian Vaults/Second Brain/40 Agent Nexus/Project Registry.md`
-- Backlog: `/mnt/g/My Drive/Obsidian Vaults/Second Brain/40 Agent Nexus/Backlog.md`
-- Kanban: `/mnt/g/My Drive/Obsidian Vaults/Second Brain/40 Agent Nexus/Kanban.md`
+- Registry: `/mnt/c/Users/Jaret/Obsidian/The Nexus/40 Agent Nexus/Project Registry.md`
+- Backlog: `/mnt/c/Users/Jaret/Obsidian/The Nexus/40 Agent Nexus/Backlog.md`
+- Kanban: `/mnt/c/Users/Jaret/Obsidian/The Nexus/40 Agent Nexus/Kanban.md`
 
 ## Eligibility rule
 - Backlog items may include optional gating fields such as `Not before` (ISO date) and `Trigger` (plain-language condition).

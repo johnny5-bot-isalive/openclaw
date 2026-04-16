@@ -79,7 +79,7 @@ The pilot succeeded well enough to justify CLI-first usage on this machine, but 
 ### Phase 1, confirm environment and corpus
 
 Confirmed environment:
-- Obsidian vault root: `/mnt/g/My Drive/Obsidian Vaults/Second Brain`
+- Obsidian vault root: `/mnt/c/Users/Jaret/Obsidian/The Nexus`
 - Workspace root: `/home/jaret/repos/openclaw-workspace`
 
 Proposed pilot corpus, first pass:
@@ -88,9 +88,9 @@ Proposed pilot corpus, first pass:
    - `/home/jaret/repos/openclaw-workspace/MEMORY.md`
    - optionally later: selected root operating notes like `AGENTS.md` and `HEARTBEAT.md`
 2. Obsidian memory-project set, indexed in place:
-   - `/mnt/g/My Drive/Obsidian Vaults/Second Brain/40 Agent Nexus/**/*.md`
-   - `/mnt/g/My Drive/Obsidian Vaults/Second Brain/10 Spaces/OpenClaw/**/*.md`
-   - `/mnt/g/My Drive/Obsidian Vaults/Second Brain/70 History/Daily Logs/**/*.md`
+   - `/mnt/c/Users/Jaret/Obsidian/The Nexus/40 Agent Nexus/**/*.md`
+   - `/mnt/c/Users/Jaret/Obsidian/The Nexus/10 Spaces/OpenClaw/**/*.md`
+   - `/mnt/c/Users/Jaret/Obsidian/The Nexus/70 History/Daily Logs/**/*.md`
 3. Defer broad library indexing until after pilot validation:
    - exclude most of `20 Library/**` on the first pass to keep signal tight
    - exclude `.obsidian/**`, attachments, and archive content

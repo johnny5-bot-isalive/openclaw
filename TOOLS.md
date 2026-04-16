@@ -17,10 +17,11 @@ Things like:
 
 ### Obsidian
 
-- Second Brain vault (Windows): `G:\My Drive\Obsidian Vaults\Second Brain`
-- Second Brain vault (WSL): `/mnt/g/My Drive/Obsidian Vaults/Second Brain`
-- Global backlog note: `/mnt/g/My Drive/Obsidian Vaults/Second Brain/40 Agent Nexus/Backlog.md`
-- Global Kanban note: `/mnt/g/My Drive/Obsidian Vaults/Second Brain/40 Agent Nexus/Kanban.md`
+- The Nexus vault (Windows): `C:\Users\Jaret\Obsidian\The Nexus`
+- The Nexus vault (WSL via /mnt/c): `/mnt/c/Users/Jaret/Obsidian/The Nexus`
+- Project registry note: `/mnt/c/Users/Jaret/Obsidian/The Nexus/40 Agent Nexus/Project Registry.md`
+- Global backlog note: `/mnt/c/Users/Jaret/Obsidian/The Nexus/40 Agent Nexus/Backlog.md`
+- Global Kanban note: `/mnt/c/Users/Jaret/Obsidian/The Nexus/40 Agent Nexus/Kanban.md`
 
 ### QMD
 
