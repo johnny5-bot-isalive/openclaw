@@ -2,15 +2,18 @@
 
 _Learn about the person you're helping. Update this as you go._
 
-- **Name:**
-- **What to call them:**
+- **Name:** Jaret
+- **What to call them:** Jaret
 - **Pronouns:** _(optional)_
-- **Timezone:**
+- **Timezone:** America/Los_Angeles
 - **Notes:**
+  - Inbox notes should be tight, clear executive briefs.
+  - Keep inbox items short, and link out to deeper notes when more detail is needed.
 
 ## Context
 
-_(What do they care about? What projects are they working on? What annoys them? What makes them laugh? Build this over time.)_
+- Prefers markdown-first workflow and memory, with Obsidian as the durable source of truth.
+- Wants inbox items to be concise decision briefs, not long background memos.
 
 ---
 

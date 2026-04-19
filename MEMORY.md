@@ -3,7 +3,7 @@
 Long-term curated memory for this workspace.
 
 - OpenClaw is running as a systemd-managed user service in this environment.
-- Native OpenClaw cron is configured for a daily 9:00 AM America/Los_Angeles update approval prompt, a 12:10 AM daily retrospective, a 3:00 AM Dreaming sweep, a 5:00 AM workspace sync, and a weekly Sunday 9:30 AM `MEMORY.md` hygiene review.
+- Native OpenClaw cron is configured for a daily 5:30 AM America/Los_Angeles QMD refresh, a daily 9:00 AM update approval prompt, a 12:10 AM daily retrospective, a 3:00 AM Dreaming sweep, a 5:00 AM workspace sync, and a weekly Sunday 9:30 AM `MEMORY.md` hygiene review.
 - The daily update check now runs as an isolated cron job that checks `openclaw update status` and announces in `#mission-control` only when an update is available, so Jaret gets an explicit approval prompt before any manual update happens.
 - The workspace sync is an overnight docs-focused commit-and-push job for `/home/jaret/repos/openclaw-workspace`; it prioritizes pushing the current workspace state to `origin` and stays silent unless there is a blocker.
 - Obsidian is implemented as a durable second-memory and collaboration layer, with plain Markdown as the system of record and plugins treated as optional accelerators.
