@@ -65,6 +65,7 @@ Skip secrets unless explicitly asked to keep them.
 
 - Inbox notes should be tight, clear executive briefs.
 - Obsidian is the durable second-memory and collaboration layer. Keep it markdown-first.
+- When referencing another markdown note or a website in markdown, make it a clickable link instead of plain text, a raw path, or a bare URL.
 - Prefer concise updates to boards and working notes over chat-only state.
 - Durable cross-project rules should live in the shared Obsidian playbooks once they stabilize, not in `AGENTS.md`, unless they are truly bootstrap-critical.
 - When waiting on Jaret for approval, action, or a decision, place a note in `00 Inbox` so the request is visible in the human action queue.

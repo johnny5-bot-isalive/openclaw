@@ -14,6 +14,8 @@ Load this file only when the current conversation clearly belongs to an active p
 8. When the exact file is already known, read it directly before using memory recall, QMD, or inference from logs.
 9. When creating or rewriting backlog cards, make them fresh-agent legible: plain outcome title, clear next action, and enough references for a new agent to act without guesswork.
 10. Default repetitive low-risk grunt work to Max when practical, but keep external-source research, prompt-injection-sensitive review, and high-judgment synthesis with Johnny unless there is a clear reason to delegate otherwise.
+11. When a project step requires an external coding harness such as Codex CLI, use a blocking event-driven pattern: write one complete self-contained instruction, dispatch it once as a single blocking call, do not poll or emit interim "still running" updates, and resume only when the tool returns. If more work is needed, start a new one-shot cycle after completion.
+12. Choose the execution lane by scope: use Max for non-coding or mostly mechanical grunt work, use a direct blocking Codex call for one bounded coding step, and use a Codex-backed ACP session or thread for larger multi-step coding work that benefits from isolated ongoing context.
 
 ## Load discipline
 
