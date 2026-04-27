@@ -39,7 +39,8 @@ Load narrow rule surfaces only when relevant:
 - If the current conversation clearly belongs to an active project:
   read `PROJECT.md` and follow it.
 - Research, investigation, source review, market scanning, tool comparison, or evidence gathering:
-  read `/mnt/c/Users/Jaret/Obsidian/The Nexus/40 Agent Nexus/Operating Rules and Playbooks/Research/_index.md` and follow it.
+  default the execution lane to Sammy Scraper when practical, then read `/mnt/c/Users/Jaret/Obsidian/The Nexus/40 Agent Nexus/Operating Rules and Playbooks/Research/_index.md` and follow it.
+  In existing projects, keep project ownership and synthesis where it belongs, but delegate external search and source-discovery work to Sammy instead of doing it in main.
 - Memory architecture, retrieval, provenance, or standing-note work:
   read `/mnt/c/Users/Jaret/Obsidian/The Nexus/40 Agent Nexus/Operating Rules and Playbooks/Memory/_index.md` and follow it.
 - Heartbeat polls:
