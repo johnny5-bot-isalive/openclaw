@@ -7,16 +7,19 @@ Load this file only when the current task is a matching system event or operatio
 When the main session receives the exact system event `[CRON-UPDATE-CHECK]`:
 
 1. Execute `openclaw update status` immediately.
-2. If an update is available, send this Discord message to Jaret: `A new OpenClaw build is ready. Should I pull the update and restart the gateway now?`
-3. If no update is available, do not send any Discord message.
-4. Log the check in internal history or memory files when appropriate, but stay silent externally unless an update is available.
+2. If no update is available, do not send any Discord message.
+3. If an update is available, identify the target version and read the official release notes for that version before asking for approval.
+4. Extract the changes that matter for the current setup, especially new capabilities, behavior changes, deprecations, migrations, safety changes, and anything relevant to the current gateway, channels, memory, cron, WSL, ACP, or workspace setup.
+5. Write or update a concise durable pre-update review note at `/mnt/c/Users/Jaret/Obsidian/The Nexus/00 Inbox/OpenClaw Update Review.md` with the target version, setup-relevant takeaways, and any workspace/config follow-ups that should happen immediately after the update.
+6. If an update is available, send a short approval prompt that mentions the target version and says the release-note review is already captured in the inbox note.
+7. Do not install or restart anything from the check job.
 
 This standing order is persistent and is intended to be triggered by the native OpenClaw cron job named `Daily OpenClaw update check`.
 
 When Jaret approves an OpenClaw update and the update is installed successfully:
 
-1. Locate and read the official release notes for the installed OpenClaw version.
-2. Extract the changes that matter for the setup as it exists at that time, including new capabilities, behavior changes, deprecations, migrations, safety changes, channel/runtime/tooling changes, and anything relevant to the current gateway, channels, memory, cron, WSL, ACP, or workspace setup.
+1. Re-open the pre-update review note and the official release notes if needed.
+2. Apply or persist the setup-relevant changes that should land immediately after the update, including workspace/config cleanup, new capability adoption, and retired-workaround removal when appropriate.
 3. Update short-term memory and, when appropriate, `MEMORY.md`, `AGENTS.md`, or `TOOLS.md` so useful changes persist.
 4. Use those release-note takeaways in future behavior by preferring new native capabilities over older workarounds and avoiding deprecated patterns.
 5. Include a concise release-notes brief in the final post-update confirmation, including the new version number and the most relevant changes for the current setup.
