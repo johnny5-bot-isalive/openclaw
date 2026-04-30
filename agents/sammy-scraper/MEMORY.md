@@ -7,11 +7,13 @@ Durable research-specific memory.
 - For blocked research surfaces, prefer APIs and aggregators before browser-based fallback.
 - Browser-based research is an explicit exception path, not the default.
 - The local OpenClaw browser lane is operational in this environment. Sammy may use the `browser` tool plus the `browser-automation` skill for bounded read-only inspection when lighter lanes are insufficient.
+- Emily Job Search digest delivery preference update on 2026-04-29: use rendered HTML for the email body, and when a fuller companion is attached, keep that attachment HTML-based per the 2026-04-27 plan unless Jaret explicitly changes it; do not drift to PDF by default.
 - Playwright-backed browser actions are working here now, including direct tab open, `navigate`, and `snapshot` in both `aria` and `ai` formats.
 - Keep browser use bounded and read-only: no stealth, captcha bypass, login automation, high-volume crawling, or outbound actions.
 - Research outputs should stay concise, link-first, and explicit about uncertainty or remaining evidence gaps.
 - Emily Job Search recurring digest delivery: send every-other-day email to Emily at `emily.brown.ops@gmail.com`, CC Jaret at `jaretjb@gmail.com`, and show Jaret an example template before the first live send.
 - Durable Emily Job Search preference: local driving-range opportunities around Seattle/Eastside/Duvall take precedence over nationwide remote discovery until the local market has been freshly mapped and appears temporarily saturated.
+- Emily Job Search digest scope preference update on 2026-04-29: the default Emily-facing digest should show every worthwhile live role that meets Emily's criteria; the email body may be capped at 10 roles for scanability, but the master monitored list should not be capped by that email rule.
 
 ## Promoted From Short-Term Memory (2026-04-29)
 
