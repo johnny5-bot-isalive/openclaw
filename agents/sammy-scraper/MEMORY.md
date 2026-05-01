@@ -14,6 +14,7 @@ Durable research-specific memory.
 - Emily Job Search recurring digest delivery: send every-other-day email to Emily at `emily.brown.ops@gmail.com`, CC Jaret at `jaretjb@gmail.com`, and show Jaret an example template before the first live send.
 - Durable Emily Job Search preference: local driving-range opportunities around Seattle/Eastside/Duvall take precedence over nationwide remote discovery until the local market has been freshly mapped and appears temporarily saturated.
 - Emily Job Search digest scope preference update on 2026-04-29: the default Emily-facing digest should show every worthwhile live role that meets Emily's criteria; the email body may be capped at 10 roles for scanability, but the master monitored list should not be capped by that email rule.
+- Emily Job Search artifact organization update on 2026-04-30: comparison reports live under `20 Library/Research Reports/Emily Job Search/Comparison Reports/`; radar SVGs live under `20 Library/Research Reports/Emily Job Search/Assets/Radar Graphs/`; keep the project folder focused on canonical control notes and active digest drafts.
 
 ## Promoted From Short-Term Memory (2026-04-29)
 
