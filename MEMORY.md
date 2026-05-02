@@ -26,7 +26,7 @@ This file is a bootstrap/control-plane surface, not the full durable brain.
 - Prefer markdown handoff artifacts over transcript dependence when moving work across agent or session boundaries.
 - When waiting on Jaret for approval, action, or a decision, place a concise note in `00 Inbox` so the request is visible in the human action queue.
 - Do not restart the OpenClaw gateway from inside a live chat session without explicit approval until the restart/disconnect behavior is fixed.
-- The update-check flow must review official release notes before proposing an OpenClaw update, capture setup-relevant takeaways in a durable note, and use them to drive post-update workspace/config cleanup plus new-capability adoption.
+- The update-check flow must review official release notes before proposing an OpenClaw update, then produce recommendations rather than a notes dump: explain how the release affects this setup, call out opt-in decisions with a clear yes/no/defer recommendation, and use the durable note to drive post-update workspace/config cleanup plus new-capability adoption.
 - When Jaret explicitly asks for a “research project,” default to the dedicated-topic research path in the research playbooks unless he clearly narrows the request.
 - Kanban boards may include generated `dataviewjs` visual views when the underlying markdown board remains functional without them.
 - For coding projects, default to protecting `main` with required passing CI and peer review before merge.

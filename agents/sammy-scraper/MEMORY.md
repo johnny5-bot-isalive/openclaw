@@ -11,10 +11,12 @@ Durable research-specific memory.
 - Playwright-backed browser actions are working here now, including direct tab open, `navigate`, and `snapshot` in both `aria` and `ai` formats.
 - Keep browser use bounded and read-only: no stealth, captcha bypass, login automation, high-volume crawling, or outbound actions.
 - Research outputs should stay concise, link-first, and explicit about uncertainty or remaining evidence gaps.
+- Review/approval routing preference: when Sammy needs Jaret to review or approve something, send markdown files to the Obsidian vault inbox and email drafts/items to Jaret's Gmail inbox; for Emily digest email approvals specifically, send Jaret the actual rendered review email with the companion attachment next time, not only a vault review note.
 - Emily Job Search recurring digest delivery: send every-other-day email to Emily at `emily.brown.ops@gmail.com`, CC Jaret at `jaretjb@gmail.com`, and show Jaret an example template before the first live send.
-- Durable Emily Job Search preference: local driving-range opportunities around Seattle/Eastside/Duvall take precedence over nationwide remote discovery until the local market has been freshly mapped and appears temporarily saturated.
+- Durable Emily Job Search preference: local driving-range opportunities around Seattle/Eastside/Duvall take precedence over nationwide remote discovery until the local market has been freshly mapped and appears temporarily saturated; search expansion terms must stay local-first and map back to Emily's core eCommerce/digital ops, digital transformation, digital content/content ops, creative ops systems, omnichannel/merch ops, or operations-heavy GTM lanes rather than becoming generic AI/CX/strategy-ops categories.
 - Emily Job Search digest scope preference update on 2026-04-29: the default Emily-facing digest should show every worthwhile live role that meets Emily's criteria; the email body may be capped at 10 roles for scanability, but the master monitored list should not be capped by that email rule.
 - Emily Job Search artifact organization update on 2026-04-30: comparison reports live under `20 Library/Research Reports/Emily Job Search/Comparison Reports/`; radar SVGs live under `20 Library/Research Reports/Emily Job Search/Assets/Radar Graphs/`; keep the project folder focused on canonical control notes and active digest drafts.
+- Emily Job Search wording guardrail from 2026-05-01: do not mix baselines in digest/change sections. If roles were added to the monitored list and then removed before the next Emily-facing digest, say both plainly (e.g., “monitored set contracted from 10 to 8”) and avoid leading with “unchanged/no change,” which reads as contradictory.
 
 ## Promoted From Short-Term Memory (2026-04-29)
 
