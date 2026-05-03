@@ -1,0 +1,121 @@
+digest_date: 2026-04-28
+date_range_label: "Apr 28 refresh"
+review_mode: true
+author_name: "Sammy"
+subject: "Emily job shortlist update — Apr 28 refresh"
+
+delivery:
+  to: "emily.brown.ops@gmail.com"
+  cc:
+    - "jaretjb@gmail.com"
+
+source_artifacts:
+  digest_markdown: "Emily Digest Draft - 2026-04-28.md"
+  comparison_markdown: "Emily Digest Comparison Report - 2026-04-28.md"
+
+output_artifacts:
+  email_html: "Emily Digest Email - 2026-04-28.html"
+  email_text: "Emily Digest Email - 2026-04-28.txt"
+  comparison_html: "Emily Digest Comparison Report - 2026-04-28.html"
+
+roles:
+  - rank: 1
+    company: "Celigo"
+    title: "Senior Ecommerce Director"
+    canonical_url: "https://www.celigo.com/careers/senior-ecommerce-director-5/"
+    work_model: "Remote-US"
+    geography: "United States"
+    salary_range: "$225k–$250k base"
+    quick_read: "High pay, fully remote, and still the cleanest big-role fit in the current live set."
+    key_highlights:
+      - "Direct careers page still resolves."
+      - "Strong ecommerce and cross-functional operator overlap."
+    key_risk: "The role still wants a stronger public ecommerce-industry profile than Emily’s current resume shows."
+    total_score: 81
+    rubric:
+      scope_seniority:
+        score: 24
+        max: 30
+        reason: "Owns real cross-functional business scope."
+      role_fit:
+        score: 19
+        max: 25
+        reason: "Very solid ecommerce/operator fit with some stretch beyond the cleanest lane."
+      compensation:
+        score: 15
+        max: 15
+        reason: "Posted base range still clears the floor."
+      geography_work_model:
+        score: 15
+        max: 15
+        reason: "Remote-US is still a perfect match."
+      travel_fit:
+        score: 4
+        max: 5
+        reason: "No heavy-travel issue surfaced."
+      resume_fit:
+        score: 4
+        max: 10
+        reason: "Matches the operator side well, but not yet the industry-voice part."
+    radar_asset: ""
+  - rank: 2
+    company: "Rithum"
+    title: "Director, Services Operations & Planning"
+    canonical_url: "https://job-boards.greenhouse.io/rithum/jobs/7767181"
+    work_model: "Remote-US"
+    geography: "United States"
+    salary_range: "$155k–$220k base"
+    quick_read: "Still a credible operations-and-planning fit, though the pay is lighter."
+    key_highlights:
+      - "Direct Greenhouse posting still resolves."
+      - "Planning, governance, and executive-reporting side matches well."
+    key_risk: "The main problem is still compensation: the low end starts below target."
+    total_score: 79
+    rubric:
+      scope_seniority:
+        score: 22
+        max: 30
+        reason: "Real planning and governance scope, though narrower than the top role."
+      role_fit:
+        score: 18
+        max: 25
+        reason: "Believable adjacent fit, but more business ops than the cleanest digital-ops lane."
+      compensation:
+        score: 11
+        max: 15
+        reason: "Top end works, but the low end is below the floor."
+      geography_work_model:
+        score: 15
+        max: 15
+        reason: "Remote-US is still a clean fit."
+      travel_fit:
+        score: 5
+        max: 5
+        reason: "Travel is explicitly capped at up to 10%."
+      resume_fit:
+        score: 8
+        max: 10
+        reason: "Planning, governance, and executive-support story fits well."
+    radar_asset: ""
+
+changes:
+  new: []
+  moved_up: []
+  removed_or_stale:
+    - "No removals in this smoke test bundle."
+
+quick_notes:
+  - "Celigo still looks strongest."
+  - "Rithum remains credible."
+  - "This bundle exists only to smoke-test the local renderer."
+
+links:
+  comparison_report_label: "Full comparison report"
+  comparison_report_target: "Emily Digest Comparison Report - 2026-04-28.html"
+  shortlist_note: "Live Role Shortlist.md"
+
+send_log:
+  approval_required: true
+  approved_by: ""
+  sent_at: ""
+  message_id: ""

@@ -1,0 +1,179 @@
+digest_date: '2026-04-28'
+date_range_label: Apr 28 refresh
+review_mode: true
+author_name: Sammy
+subject: Emily job shortlist update — Apr 28 refresh
+delivery:
+  to: emily.brown.ops@gmail.com
+  cc:
+  - jaretjb@gmail.com
+source_artifacts:
+  digest_markdown: Emily Digest Draft - 2026-04-28.md
+  comparison_markdown: Emily Digest Comparison Report - 2026-04-28.md
+output_artifacts:
+  email_html: Emily Digest Email - 2026-04-28.html
+  email_text: Emily Digest Email - 2026-04-28.txt
+  comparison_html: Emily Digest Comparison Report - 2026-04-28.html
+  approval_packet_markdown: Emily Digest Approval Packet - 2026-04-28.md
+roles:
+- rank: 1
+  company: Celigo
+  title: Senior Ecommerce Director
+  canonical_url: https://www.celigo.com/careers/senior-ecommerce-director-5/
+  work_model: Remote-US
+  geography: US
+  salary_range: $225k–$250k base
+  quick_read: High pay, fully remote, and still the cleanest big-role fit in the current
+    live set.
+  key_highlights:
+  - Celigo’s direct careers page still resolves, and the role also appears on Celigo’s
+    Greenhouse board in today’s refresh. It still lines up well with Emily’s ecommerce
+    and cross-functional operator story.
+  key_risk: 'The main stretch is still the same: the role wants a stronger public
+    ecommerce-industry profile than Emily’s current resume shows today.'
+  total_score: 81
+  rubric:
+    scope_seniority:
+      score: 24
+      max: 30
+      reason: It owns real cross-functional business scope, but it is more outward-facing
+        than a pure internal ops role.
+    role_fit:
+      score: 19
+      max: 25
+      reason: Very solid ecommerce/operator fit, but it stretches a bit beyond Emily’s
+        cleanest digital-ops lane.
+    compensation:
+      score: 15
+      max: 15
+      reason: The posted base range still clears the floor.
+    geography_work_model:
+      score: 15
+      max: 15
+      reason: Remote-US is still a perfect match for the search rules.
+    travel_fit:
+      score: 4
+      max: 5
+      reason: No heavy-travel issue surfaced, but the public-facing nature of the
+        job keeps it from a perfect score.
+    resume_fit:
+      score: 4
+      max: 10
+      reason: Emily matches the operator side well, but not yet the industry-voice
+        part.
+  radar_asset: Emily%20Digest%20Radar%20-%20Celigo%20-%202026-04-27.svg
+- rank: 2
+  company: Rithum
+  title: Director, Services Operations & Planning
+  canonical_url: https://job-boards.greenhouse.io/rithum/jobs/7767181
+  work_model: Remote-US
+  geography: US
+  salary_range: $155k–$220k base
+  quick_read: Still a credible operations-and-planning fit, and it moves up because
+    Omada fell out of the live set.
+  key_highlights:
+  - The direct Greenhouse posting still resolves today, with travel capped at up to
+    10%. The planning, governance, and executive-reporting side still matches Emily’s
+    background well.
+  key_risk: 'The main problem is still compensation: the low end starts below target,
+    and the role leans more business planning than digital operations.'
+  total_score: 79
+  rubric:
+    scope_seniority:
+      score: 22
+      max: 30
+      reason: The role has real planning and operating-governance scope, but it is
+        not as broad as the top role.
+    role_fit:
+      score: 18
+      max: 25
+      reason: It is a believable adjacent fit, though it leans more business ops than
+        Emily’s cleanest lane.
+    compensation:
+      score: 11
+      max: 15
+      reason: The top end still works, but the low end of the range is below the floor.
+    geography_work_model:
+      score: 15
+      max: 15
+      reason: Remote-US is still a clean fit.
+    travel_fit:
+      score: 5
+      max: 5
+      reason: Travel is explicitly capped at up to 10%.
+    resume_fit:
+      score: 8
+      max: 10
+      reason: Emily’s planning, governance, and executive-support story still fits
+        this one well.
+  radar_asset: Emily%20Digest%20Radar%20-%20Rithum%20-%202026-04-27.svg
+- rank: 3
+  company: Instacart
+  title: Senior Director, Enterprise Delivery and Growth
+  canonical_url: https://www.instacart.careers/job?gh_jid=7813002
+  work_model: Hybrid / flex / remote
+  geography: US
+  salary_range: $264k–$334.5k base
+  quick_read: Huge scope and top-end pay are still attractive, but the technical delivery
+    stretch remains real.
+  key_highlights:
+  - The direct Instacart careers page still resolves today. The scope is still unusually
+    large, spanning enterprise delivery, architecture, and retailer growth.
+  key_risk: This one still asks for deeper SaaS delivery and solutions-architecture
+    experience than Emily’s current story shows.
+  total_score: 78
+  rubric:
+    scope_seniority:
+      score: 24
+      max: 30
+      reason: It leads multiple senior teams and owns very large delivery scope.
+    role_fit:
+      score: 17
+      max: 25
+      reason: It has strong commerce overlap, but it is more post-sale SaaS delivery
+        than Emily’s cleanest lane.
+    compensation:
+      score: 15
+      max: 15
+      reason: Prior validated compensation evidence still easily clears the floor,
+        and no drift surfaced in today’s refresh.
+    geography_work_model:
+      score: 14
+      max: 15
+      reason: Instacart’s careers page still frames the company as hybrid-remote/flex-first,
+        which remains acceptable.
+    travel_fit:
+      score: 4
+      max: 5
+      reason: No heavy-travel issue surfaced, but travel still is not spelled out
+        as clearly as Rithum.
+    resume_fit:
+      score: 4
+      max: 10
+      reason: The operator overlap is real, but the technical delivery side is still
+        a big stretch.
+  radar_asset: Emily%20Digest%20Radar%20-%20Instacart%20-%202026-04-27.svg
+changes:
+  new: []
+  moved_up:
+  - 'Rithum moved to #2 and Instacart moved to #3 after Omada dropped out.'
+  removed_or_stale:
+  - '[Omada Health — Senior Director, Enterprise Launch Excellence and GTM](https://job-boards.greenhouse.io/omadahealth/jobs/7722234)
+    was removed from the live shortlist. The direct Greenhouse posting no longer resolves
+    to the role, and the current Omada openings page no longer lists it. I treated
+    that as closed and removed it from the live shortlist.'
+quick_notes:
+- Celigo is still the clearest current overall fit in the live set.
+- Rithum stays credible because the travel signal is clean and the planning/governance
+  fit is real, even though the pay is lighter.
+- Instacart is still the highest-upside stretch role if the technical-delivery ask
+  feels acceptable.
+links:
+  comparison_report_label: Full comparison report
+  comparison_report_target: Emily Digest Comparison Report - 2026-04-27.html
+  shortlist_note: Live Role Shortlist.md
+send_log:
+  approval_required: true
+  approved_by: ''
+  sent_at: ''
+  message_id: ''

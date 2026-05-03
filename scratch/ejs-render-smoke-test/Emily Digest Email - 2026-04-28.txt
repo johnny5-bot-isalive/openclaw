@@ -1,0 +1,54 @@
+[REVIEW ONLY — not yet approved for send]
+
+Subject: Emily job shortlist update — Apr 28 refresh
+
+Hi Emily,
+
+Here’s your latest shortlist update. I kept the email version condensed and linked the fuller comparison notes separately.
+
+Top roles right now
+
+1) Celigo — Senior Ecommerce Director
+Link: https://www.celigo.com/careers/senior-ecommerce-director-5/
+Quick read: High pay, fully remote, and still the cleanest big-role fit in the current live set.
+Key highlights: Direct careers page still resolves.; Strong ecommerce and cross-functional operator overlap.
+Key risk factor: The role still wants a stronger public ecommerce-industry profile than Emily’s current resume shows.
+Score breakdown:
+- Scope / seniority: 24/30 — Owns real cross-functional business scope.
+- Role fit: 19/25 — Very solid ecommerce/operator fit with some stretch beyond the cleanest lane.
+- Compensation: 15/15 — Posted base range still clears the floor.
+- Geography / work model: 15/15 — Remote-US is still a perfect match.
+- Travel fit: 4/5 — No heavy-travel issue surfaced.
+- Resume fit: 4/10 — Matches the operator side well, but not yet the industry-voice part.
+- Total: 81/100
+
+2) Rithum — Director, Services Operations & Planning
+Link: https://job-boards.greenhouse.io/rithum/jobs/7767181
+Quick read: Still a credible operations-and-planning fit, though the pay is lighter.
+Key highlights: Direct Greenhouse posting still resolves.; Planning, governance, and executive-reporting side matches well.
+Key risk factor: The main problem is still compensation: the low end starts below target.
+Score breakdown:
+- Scope / seniority: 22/30 — Real planning and governance scope, though narrower than the top role.
+- Role fit: 18/25 — Believable adjacent fit, but more business ops than the cleanest digital-ops lane.
+- Compensation: 11/15 — Top end works, but the low end is below the floor.
+- Geography / work model: 15/15 — Remote-US is still a clean fit.
+- Travel fit: 5/5 — Travel is explicitly capped at up to 10%.
+- Resume fit: 8/10 — Planning, governance, and executive-support story fits well.
+- Total: 79/100
+
+What changed since the last update
+- New: None.
+- Moved up: None.
+- Removed / stale / closed: No removals in this smoke test bundle.
+
+Quick notes
+- Celigo still looks strongest.
+- Rithum remains credible.
+- This bundle exists only to smoke-test the local renderer.
+
+Links
+- Full comparison report: Emily Digest Comparison Report - 2026-04-28.html
+- Canonical shortlist: Live Role Shortlist.md
+
+Best,
+Sammy
