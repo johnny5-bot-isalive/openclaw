@@ -29,12 +29,13 @@ Use the project registry plus the global and project-local Kanban boards in The 
 12. Main should not silently co-write healthy project-local boards except for bootstrap or repair.
 
 ## Max parallel rule
-1. Spawn Max as a disposable one-shot worker. Use `sessions_spawn` with `runtime: "subagent"`, `agentId: "max"`, `mode: "run"`, `cleanup: "delete"`, and no ACP-only fields.
-2. If Max cannot be spawned or the board/files cannot be read, send a concise blocker update.
-3. If there is a Max-owned unblocked `Doing` card, he shall take one real step on it and update the card immediately.
-4. Otherwise, if there is a Max-owned unblocked `Ready` card, he shall start it, do one real step, and update the card immediately.
-5. Otherwise, do not change board state during heartbeat.
-6. Before replying, re-read enough of the changed board to verify the landed state.
+1. Do not spawn Max just to check whether work exists. First inspect the already-read global Kanban for Max-owned unblocked `Doing` or `Ready` cards.
+2. If there is no Max-owned unblocked card in `Doing` or `Ready`, skip Max entirely and do not emit a `NO_MAX_WORK`-style update.
+3. If there is a Max-owned unblocked `Doing` or `Ready` card, spawn Max as a disposable one-shot worker. Use `sessions_spawn` with `runtime: "subagent"`, `agentId: "max"`, `mode: "run"`, `cleanup: "delete"`, and no ACP-only fields.
+4. If Max cannot be spawned or the board/files cannot be read, send a concise blocker update.
+5. If there is a Max-owned unblocked `Doing` card, he shall take one real step on it and update the card immediately.
+6. Otherwise, if there is a Max-owned unblocked `Ready` card, he shall start it, do one real step, and update the card immediately.
+7. Before replying, re-read enough of the changed board to verify the landed state.
 
 ## Note-search rule
 - Prefer QMD first for fuzzy semantic note retrieval across workspace memory and the Obsidian vault.
